@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema Escolar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="shortcut icon" href="./image/icone.png" type="image/x-icon">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white shadow-md rounded-lg p-6 w-full max-w-md">
+    <h1 class="text-2xl font-bold text-center mb-6">Cálculo de Média</h1>
+    <form id="form-calculo" class="space-y-4">
+      <div>
+        <label for="nota1" class="block text-sm font-medium text-gray-700">Nota do 1º Bimestre:</label>
+        <input type="number" id="nota1" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm" min="0" max="10" step="0.1" required>
+      </div>
+      <div>
+        <label for="nota2" class="block text-sm font-medium text-gray-700">Nota do 2º Bimestre:</label>
+        <input type="number" id="nota2" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm" min="0" max="10" step="0.1" required>
+      </div>
+      <div>
+        <label for="nota3" class="block text-sm font-medium text-gray-700">Nota do 3º Bimestre:</label>
+        <input type="number" id="nota3" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm" min="0" max="10" step="0.1" required>
+      </div>
+      <div>
+        <label for="nota4" class="block text-sm font-medium text-gray-700">Nota do 4º Bimestre:</label>
+        <input type="number" id="nota4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm" min="0" max="10" step="0.1" required>
+      </div>
+      <button type="button" onclick="calcularMedia()" class="w-full py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+        Calcular Média
+      </button>
+    </form>
+    <div id="resultado" class="mt-6 text-center text-lg font-semibold text-gray-800"></div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
