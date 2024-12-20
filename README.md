@@ -19,8 +19,8 @@ Este projeto foi desenvolvido como parte do desafio **"Faça um sistema que rece
 
 ## 👷 Autor
 
-- **Nome do Dev** - Função realizada - nome_do_dev
+- **Angelo Silvano** - *Front-End Developer* - [@angelodesenvolvedor](https://github.com/angelodesenvolvedor)
 
 ## 📄 Licença
 
-- Esse projeto está sob a licença **MIT** - acesse os detalhes em [LICENSE.md](LICENSE.md).
+- Esse projeto está sob a licença **MIT License** - acesse os detalhes em [LICENSE.md](https://github.com/angelodesenvolvedor/SistemaEscolar?tab=MIT-1-ov-file).
